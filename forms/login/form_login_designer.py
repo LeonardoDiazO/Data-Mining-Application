@@ -20,6 +20,7 @@ class formLoginDesigner:
         self.ventana.title('INICIO DE SESSION')
         self.ventana.geometry('800x500')
         self.ventana.config(bg='#ABEBC6')
+        self.ventana.iconbitmap("./imagenes/logotransparente.ico")
         self.ventana.resizable(width=0,height=0)
         utl.centrar_ventana(self.ventana,800,500)
         

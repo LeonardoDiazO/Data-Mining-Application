@@ -11,8 +11,8 @@ class Auth_User(Base):
     username =Column(String(150))
     password = Column(String(150))
     
-    # def __repr__(self):
-    #     return f'auth_user({self.username}, {self.password})'
+    def __repr__(self):
+        return f'auth_user({self.username}, {self.password})'
     
-    # def __str__(self):
-    #     return self.username
+    def __str__(self):
+        return self.username

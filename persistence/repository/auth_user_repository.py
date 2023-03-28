@@ -15,7 +15,7 @@ class AuthUserRepository():
         return user
     
     #Insersion de usuario 
-    def inserUser(self,user:Auth_User):
+    def insertUser(self,user:Auth_User):
         with Session(self.engine) as session:
             session.add(user)
             session.commit()         
